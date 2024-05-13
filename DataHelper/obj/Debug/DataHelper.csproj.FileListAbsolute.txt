@@ -1,0 +1,4 @@
+C:\Users\Ellaine\Documents\Visual Studio 2013\Projects\WebSite4\DataHelper\bin\Debug\DataHelper.dll
+C:\Users\Ellaine\Documents\Visual Studio 2013\Projects\WebSite4\DataHelper\bin\Debug\DataHelper.pdb
+C:\Users\Ellaine\Documents\Visual Studio 2013\Projects\WebSite4\DataHelper\obj\Debug\DataHelper.dll
+C:\Users\Ellaine\Documents\Visual Studio 2013\Projects\WebSite4\DataHelper\obj\Debug\DataHelper.pdb

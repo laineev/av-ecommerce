@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPageWebForm.master.cs" Inherits="MasterPageWebForm" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="assets/Open%20Source%20Web%20Design%20-%20Preview%20-%20Naturalist_files/style.css" rel="stylesheet" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+
+        <div id="page_wrapper">
+
+<div id="page_header">
+<h1>CASE STUDY</h1>
+<h2>Audio-Video E-Commerce</h2>
+</div>
+
+<div id="menu_bar">
+
+<div id="navcontainer">
+<ul id="navlist">
+<li id="active"><a href="MPlogin.aspx" id="current">Log-in</a></li>
+<li><a href="MPRegistration.aspx">Registration</a></li>
+<li><a href="MPmembers.aspx">Purchase Page</a></li>
+<li><a href="MPadmin.aspx">Admin Page</a></li>
+</ul>
+</div>
+
+</div>
+
+<div id="content_wrapper">
+
+<div class="spacer"></div>
+
+<div id="left_side">
+
+<p>
+    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+    </asp:ContentPlaceHolder>
+</p>
+
+
+<p>
+ 
+</p>
+
+
+
+
+</div>
+
+
+
+<div class="spacer"></div>
+
+</div>
+
+<div id="page_footer">
+<p>
+    Programmed by Ellaine Villanueva | BIT32</p>
+
+</div>
+
+</div>
+
+    </form>
+</body>
+</html>
